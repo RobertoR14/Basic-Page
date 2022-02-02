@@ -188,9 +188,9 @@ margin-bottom: 10px;
 }
 
 .close{
-  position: relative;
-  bottom: 260px;
-  left: 950px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
   width: 40px;
   cursor: pointer;
   color: white;
@@ -321,13 +321,13 @@ transition: .3s ease-in-out;
       align-items: center;
     }
 
-    .close{
-      position: relative;
+/*     .close{
+      position: fixed;
       bottom: 150px;
       left: 370px;
       width: 40px;
       cursor: pointer;
       color: white;
       font-size: 2em;
-    }
+    } */
   }
